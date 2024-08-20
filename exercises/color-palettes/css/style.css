@@ -1,0 +1,78 @@
+body {
+    background-color:#727272;
+    color: #ede6e3
+    padding:24px
+}
+#page-title {
+    text-align: center;
+    color: #ede6e3;
+}
+#palette-title {
+    text-align:left;
+    color: #ede6e3;
+}
+#color-names {
+    text-align:center;
+    color: #ede6e3;
+}
+#lt-pink {
+    background-color:#ffd2fc;
+    color:#ede6e3;
+    text-align:center
+}
+#old-rose {
+    background-color:#ce796b;
+    color:#ede6e3;
+    text-align:center
+}
+#mint-green {
+    background-color:#b9d8c2;
+    color:#ede6e3;
+    text-align:center
+}
+#grape {
+    background-color:#5e2669;
+    color:#ede6e3;
+    text-align:center
+}
+#melon {
+    background-color:#fcbfb7;
+    color:#ede6e3;
+    text-align:center
+}
+#violet {
+    background-color:#745c97;
+    color:#ede6e3;
+    text-align:center
+}
+#tiffany {
+    background-color:#80ded9;
+    color:#ede6e3;
+    text-align:center
+}
+#khaki {
+    background-color:#a69888;
+    color:#ede6e3;
+    text-align:center
+}
+#flax {
+    background-color:#ffee93;
+    color:#ede6e3;
+    text-align:center
+}
+#sky {
+    background-color:#75b9be;
+    color:#ede6e3;
+    text-align:center
+}
+#raspberry {
+    background-color:#d81e5b;
+    color:#ede6e3;
+    text-align:center
+}
+#battleship {
+    background-color:#969696;
+    color:#ede6e3;
+    text-align:center
+}
+}
