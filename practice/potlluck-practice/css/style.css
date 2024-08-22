@@ -14,14 +14,23 @@ body{
     #description {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
+        text-align:center;
+        padding:0px 100px;
     }
     #song-list {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
         font-style: italic;
         font-size: medium;
+        margin:110px;
     }
     #icons {
         color:rgb(255, 255, 255)
+    }
+    #photos {
+        padding:100;
+        text-align:center;
+        border:10px solid blue;
+        background-color:rgb(117, 214, 214);
     }
 }
