@@ -6,3 +6,46 @@
 
     Good luck, and have fun!
 */
+#image2 {
+    width: 50px;
+    margin-top: 10px;
+    border: 10px solid maroon;
+    padding:16px;
+    background-color:antiquewhite;
+}
+#image4 {
+    width: 100px;
+    margin-top: 65px;
+    border: 10px solid rgb(220, 231, 58);
+    padding:16px;
+    background-color:antiquewhite;
+}
+#image5 {
+    width: 100px;
+    margin-top: 92px;
+    border: 10px solid rgb(68, 202, 102);
+    padding:16px;
+    background-color:antiquewhite;
+}
+#image6 {
+    width: 100px;
+    margin-top: 15px;
+    border: 10px solid rgb(47, 106, 196);
+    padding:16px;
+    background-color:antiquewhite;
+}
+#image7 {
+    width: 100px;
+    margin-top: 15px;
+    border: 10px solid rgb(165, 108, 108);
+    padding:16px;
+    background-color:antiquewhite;
+}
+#text {
+    width: 119px;
+    margin-top: 35px;
+    border: 10px solid rgb(127, 75, 161);
+    padding:5px;
+    background-color:rgb(0, 0, 0);
+    color:white
+}
