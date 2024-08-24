@@ -1,0 +1,12 @@
+.absolute-image{
+    width: 350px;
+}
+.relative-image{
+    width: 100%;
+}
+.outer-container {
+    border: 10px solid red
+}
+.inner-container {
+    border: 10px solid blue
+}
