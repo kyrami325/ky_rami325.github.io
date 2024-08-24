@@ -12,6 +12,7 @@
     border: 10px ridge rgb(0, 0, 0);
     padding:10px;
     background-color:rgb(255, 255, 255);
+    margin-left: 55px;
 }
 #image4 {
     width: 85px;
@@ -19,6 +20,7 @@
     border: 10px ridge rgb(0, 0, 0);
     padding:10px;
     background-color:rgb(255, 255, 255);
+    margin-left: 55px;
 }
 #image7 {
     width: 85px;
@@ -26,43 +28,33 @@
     border: 10px ridge rgb(0, 0, 0);
     padding:10px;
     background-color:rgb(255, 255, 255);
+    margin-left: 55px;
 }
 p {
     border: 10px ridge black;
-    margin-top: 5px;
+    margin-top: 15px;
     padding: 10px;
     background-color:rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #image1 {
     width: 105px;
-    margin-top: 10px;
+    margin-top: 15px;
     border: 10px ridge rgb(0, 0, 0);
     padding:10px;
     background-color:rgb(255, 255, 255);
 }
 #image5 {
     width: 105px;
-    margin-top: 10px;
+    margin-top: 15;
     border: 10px ridge rgb(0, 0, 0);
     padding:10px;
     background-color:rgb(255, 255, 255);
 }
 #image6 {
     width: 105px;
-    margin-top: 10px;
+    margin-top: 15px;
     border: 10px ridge rgb(0, 0, 0);
     padding:10px;
     background-color:rgb(255, 255, 255);
 }
-#display-space .r1 {
-    text-align: left;
-}
-#display-space r2 {
-    text-align: center;
-}
-#r3 {
-    text-align: right;
-}
-
-
