@@ -17,64 +17,85 @@ body {
 #lt-pink {
     background-color:#ffd2fc;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #old-rose {
     background-color:#ce796b;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #mint-green {
     background-color:#b9d8c2;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #grape {
     background-color:#5e2669;
     color: #177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #melon {
     background-color:#f185b2;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #violet {
     background-color:#ae8ce2;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #tiffany {
     background-color:#80ded9;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #khaki {
     background-color:#c4b5a5;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #flax {
     background-color:#ffee93;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #sky {
     background-color:#a0cfd3;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #raspberry {
     background-color:#be788f;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #battleship {
     background-color:#969696;
     color:#177e89;
-    text-align:center
+    text-align:center;
+    padding: 20px;
 }
 #page-break {
     color:#177e89;
     background-color:#177e89;
+}
+#terracotta-haven {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#just-a-girl {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#smells-like-argyle {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
