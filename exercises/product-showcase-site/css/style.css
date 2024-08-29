@@ -1,60 +1,70 @@
-{
+*{
     box-sizing:border-box;
 }
 body {
     align-items: center;
+    margin: 0px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #box-1 {
-    width: 100%;
+    width: 80%;
     background-color:#351858;
     color: white;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 15px;
+    padding: 24px;
 }
 #box-2 {
-    width: 100%;
+    width: 80%;
     text-align: center;
     background-color: #ec058e;
     color: white;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #box-3 {
     width: 100%;
     text-align: center;
     background-color: #61377a;
     color: white;
+    padding: 24px;
 }
 #box-4 {
     width: 100%;
     text-align: center;
     background-color: #ef7135;
     color: white;
+    padding: 24px;
 }
 #box-5 {
     width: 100%;
     text-align: center;
     background-color: #8ac9d4;
     color: white;
+    padding: 24px;
 }
 #box-6 {
     width: 100%;
     text-align: center;
     background-color: #ef4f91;
     color: white;
+    padding: 24px;
 }
 #box-7 {
     width: 100%;
     text-align: center;
     background-color: #52ccd6;
     color: white;
+    padding: 24px;
 }
 #box-8 {
     width: 100%;
     text-align: center;
     background-color: #ca9a56;
     color: white;
+    padding: 24px;
 }
 .img-1 {
     background-color: #37b0c9;
