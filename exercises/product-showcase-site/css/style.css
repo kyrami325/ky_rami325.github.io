@@ -1,13 +1,13 @@
-*{
-    box-sizing:border-box;
+* {
+    box-sizing: border-box
 }
 body {
-    align-items: center;
     margin: 0px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
 }
-#box-1 {
-    width: 80%;
+.light-container-1a {
     background-color:#351858;
     color: white;
     margin-left: auto;
@@ -15,116 +15,110 @@ body {
     text-align: center;
     padding: 24px;
 }
-#box-2 {
-    width: 80%;
-    text-align: center;
+.pony-1a {
     background-color: #ec058e;
-    color: white;
-    padding: 24px;
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    color: #e4e7ec;
+}
+.light-container-1 {
+    background-color: #3977b8;
+    padding: 48px 0px;
     margin-left: auto;
     margin-right: auto;
 }
-#box-3 {
-    width: 100%;
+.pony-1 {
+    background-color:#5fbbe7;
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    background-color: #61377a;
-    color: white;
-    padding: 24px;
+    padding: 15px;
+    color: #61377a;
+    #3977b8
 }
-#box-4 {
-    width: 100%;
-    text-align: center;
+.light-container-2 {
     background-color: #ef7135;
-    color: white;
-    padding: 24px;
+    padding: 48px 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
-#box-5 {
-    width: 100%;
+.pony-2 {
+    color: #9bdbf5;
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    padding: 15px;
+    background-color: #faf5ab;
+}
+.light-container-3 {
     background-color: #8ac9d4;
-    color: white;
-    padding: 24px;
+    padding: 48px 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
-#box-6 {
-    width: 100%;
+.pony-3 {
+    background-color: #ffeacf;
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    padding: 15px;
+    color: #e13690;
+}
+.light-container-4 {
     background-color: #ef4f91;
-    color: white;
-    padding: 24px;
+    padding: 48px 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
-#box-7 {
-    width: 100%;
+.pony-4 {
+    color: #673888;
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    background-color: #52ccd6;
-    color: white;
-    padding: 24px;
+    padding: 15px;
+    background-color:#c79dd7
 }
-#box-8 {
-    width: 100%;
+.light-container-5 {
+    background-color: #fff7a7;
+    padding: 48px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pony-5 {
+    background-color: #95d4e4;
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    padding: 15px;
+    color:#19c3ba;
+}
+.light-container-6 {
     background-color: #ca9a56;
-    color: white;
-    padding: 24px;
+    padding: 48px 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.img-1 {
-    background-color: #37b0c9;
-    border: 10px solid black;
-    width:400px;
+.pony-6 {
+    background-color: #ec3f41;
+    min-width: 400px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
-}
-.img-2 {
-    background-color: #5fbbe7;
-    border: 10px solid black;
-    width:400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding:10px;
-}
-.img-3 {
-    background-color: #9bdbf5;
-    border: 10px solid black;
-    width:400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-.img-4 {
-    background-color:#ffeacf;
-    border: 10px solid black;
-    width:400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-.img-5 {
-    background-color:#673888;
-    border: 10px solid black;
-    width:400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-.img-6 {
-    background-color:#fff7a7;
-    border: 10px solid black;
-    width:400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}.img-7 {
-    background-color:#ec3f41;
-    border: 10px solid black;
-    width:400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-.b1 {
-    border: 10px solid #351858;
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:#351858;
+    text-align: center;
+    padding: 15px;
+    color: #faf5ab;
 }
