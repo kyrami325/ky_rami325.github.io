@@ -37,3 +37,12 @@ body {
     flex: 1;
     padding: 48px;
 }
+/*blue links*/
+#span2 {
+    color: blue;
+}
+/*bold sections*/
+#span1 {
+    font-weight: bold;
+}
+/*sup*
