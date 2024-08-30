@@ -4,6 +4,8 @@
 body {
     margin:0px;
     font-family:sans-serif;
+    color:rgb(7, 38, 78);
+    background-color: rgb(211, 211, 211);
 }
 #grid-layout {
     display: grid;
@@ -16,26 +18,26 @@ body {
     padding: 18px;
 }
 #sidebar-content h2 {
-    background-color: darkslategray;
+    background-color: rgb(7, 38, 78);
     margin: 0px;
     padding: 12px;
     color: white;
     font-size: 18px;
 }
 #sidebar-content ul {
-    background-color: #efefef;
-    border: 1px solid darkslategray;
+    background-color: rgb(185, 206, 228);
+    border: 1px solid rgb(26, 101, 199);
     margin: 0px 0px 36px;
     list-style-type: none;
     padding: 0px 12px;
 }
 #sidebar-content a {
-    color: darkslategray;
+    color: rgb(7, 38, 78);
     text-decoration: none;
 }
 #sidebar-content li {
-    border-bottom: 1px solid darkslategray;
-    padding: 8px 0px;
+    border-bottom: 1px solid rgb(53, 97, 97);
+    padding: 10px 0px;
 }
 #sidebar-content li:last-child {
     border-bottom: 0px;
@@ -43,6 +45,21 @@ body {
 #main-content {
     grid-area: content;
     margin: 0px 36px;
+}
+#main-content h5{
+    grid-area: content;
+    text-align: right;
+}
+#content-b2 li {
+    font-weight: bold;
+    color: rgb(26, 101, 199);
+}
+#span1 {
+    color: rgb(26, 101, 199);
+    font-style:italic
+}
+#span2 {
+    font-size: large;
 }
 
 
