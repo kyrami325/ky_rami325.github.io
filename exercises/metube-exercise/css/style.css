@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: #2e4045;
 }
 body {
     margin: 0px;
@@ -11,6 +12,7 @@ body {
     grid-template-areas: 
         "header header"
         "sidebar main";
+        color: #ffffff;
 }
 #header {
     grid-area: header;
@@ -23,17 +25,17 @@ body {
 #main {
     grid-area: main;
     display: flex; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 #header a {
     text-decoration: none;
 }
 #header #me {
-    color: #111111;
+    color: #ffffff;
 }
 #header #tube {
-    color: white;
-    background-color: red;
+    color: 	#5e3c58;
+    background-color:#4fdfcb;
     padding: 4px;
     border-radius: 12px;
 }
@@ -41,16 +43,16 @@ body {
     padding: 12px 0px;
     margin: 0px;
     list-style-type: none;
-    border-bottom: 1px solid #AAAAAA
+    border-bottom: 3px solid #5e3c58;
 }
 #sidebar ul a {
     text-decoration: none;
-    color: #111111;
+    color: #ffffff;
     display: block;
     padding: 12px;
 }
 #sidebar ul a:hover {
-    background-color: #EEEEEE;
+    background-color: #4fdfcb;
     border-radius: 12px;
 }
 .metube-item {
@@ -60,15 +62,18 @@ body {
 }
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;
-    background: radial-gradient(at top left, crimson, orange);
     border-radius: 8px;
+}
+#image {
+    border: 6px solid 	#4fdfcb;
+    border-radius: 15px;
 }
 .metube-item h4 {
     margin: 8px;
 }
 .metube-item h4 a {
     text-decoration: none;
-    color: #111111;
+    color: #ffffff;
     display: block;
 }
 .metube-item h4 a:hover {
