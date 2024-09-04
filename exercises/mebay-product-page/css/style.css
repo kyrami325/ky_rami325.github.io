@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+body {
+    background-color: #E0E0E0;
+    color: #111111;
+}
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 200px 400px 200px 1fr;
+    grid-template-areas: 
+        ". column-area-1 column-area-2 column-area-3 .";
+}
+#column-1 {
+    background-color: white;
+    padding: 0px 12px;
+    grid-area: column-area-1;
+}
+#column-1 p span {
+    font-weight: bold;
+}
+#column-2 {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 12px;
+    grid-area: column-area-2;
+}
+#column-2 p span {
+    font-weight: bold;
+}
+#column-3 {
+    background-color: white;
+    padding: 0px 12px;
+    grid-area: column-area-3;
+}
+#center-column p span {
+    font-weight: bold;
+}
+#three-columns img {
+    margin-top: 24px;
+    width: 100%;
+}
+#three-columns h2,
+#three-columns h3 {
+    border-bottom: 2px solid #888888;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+}
+#three-columns p {
+    margin-top: 12px;
+}
+#center-column {
+    background-color: rgb(154, 211, 230);
+    width: 800px;
+    margin: 4px auto;
+    padding: 4px;
+    text-align: center;
+}
+.c {
+    text-align: left;
+    padding: 0px 35px;
+}
+#top-column {
+    background-color: rgb(175, 175, 175);
+    width: 800px;
+    margin: 4px auto;
+    padding: 4px;
+    text-align: center;
+}
+.solution div {
+    border-radius: 35px;
+    margin-bottom: 2px;
+    padding: 4px;
+    text-align: center;
+}
+#d1-div1 {
+    margin-right: px;
+    width: 90px;
+    background-color: rgb(30, 102, 238);
+    color: white;
+}
+#d1-div2 {
+    margin-right: px;
+    width: 90px;
+    background-color: skyblue;
+    color: white;
+}
+#d1-div3 {
+    margin-right: px;
+    width: 120px;
+    background-color: white;
+    color: rgb(30, 102, 238);
+    border: 2px solid;
+}
+.solution {
+    grid-area: sidebar;
+    padding: 18px;
+}
+#display {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "content sidebar";
+}
+.buttons {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+#text {
+    grid-area: content;
+}
+#m {
+    color:rgb(0, 0, 0);
+}
+#e {
+    color:rgb(58, 121, 172);
+}
+#b {
+    color:rgb(151, 19, 19);
+}
+#a {
+    color:rgb(206, 255, 28);
+}
+#y {
+    color:rgb(35, 133, 35);
+}
+
