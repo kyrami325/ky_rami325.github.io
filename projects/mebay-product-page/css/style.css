@@ -45,7 +45,7 @@ body {
 }
 #three-columns h2,
 #three-columns h3 {
-    border-bottom: 2px solid #888888;
+    border-bottom: 2px solid #0044ff;
     padding-bottom: 4px;
     margin-bottom: 0px;
 }
@@ -53,7 +53,7 @@ body {
     margin-top: 12px;
 }
 #center-column {
-    background-color: rgb(154, 211, 230);
+    background-color: rgb(27, 198, 255);
     width: 800px;
     margin: 4px auto;
     padding: 4px;
@@ -64,7 +64,7 @@ body {
     padding: 0px 35px;
 }
 #top-column {
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(255, 117, 117);
     width: 800px;
     margin: 4px auto;
     padding: 4px;
@@ -97,22 +97,23 @@ body {
 }
 .solution {
     grid-area: sidebar;
-    padding: 18px;
+    padding: 35px 10px 35px;
 }
 #display {
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-areas: "content sidebar";
+    border: 1px solid black;
 }
 .buttons {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
     margin: 0px;
-    padding: 10px;
-    color: white;
     font-size: 18px;
 }
 #text {
     grid-area: content;
+    padding: 50px 10px;
+    font-size: x-large;
 }
 #m {
     color:rgb(0, 0, 0);
