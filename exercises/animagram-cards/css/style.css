@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#card-container {
+    
+}
+.card-style-2 {
+    width: 350px;
+    background: rgb(238, 255, 238);
+    flex-direction: column;
+    border-radius: 35px;
+    align-items: center;
+}
+.logo {
+    margin: 25px;
+}
+.brand-name {
+    justify-items: end;
+}
+.card-style-2 img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0px 80px;
+}
+.card-style-2 h2 {
+    font-size: 24px;
+    text-align: center;
+}
+.card-style-2 p {
+    font-size: 16px;
+    flex: 1;
+    margin: 10px;
+}
+.card-style-2 a {
+
+}
+.card-style-2 a:hover {
+
+}
