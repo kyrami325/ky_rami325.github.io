@@ -5,28 +5,36 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-#card-container {
-    
-}
 .card-style-2 {
-    width: 350px;
+    width: 358px;
+    height: 100%;
     background: rgb(238, 255, 238);
     flex-direction: column;
     border-radius: 35px;
     align-items: center;
+    margin: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.animagram-header {
+    flex: display;
 }
 .logo {
-    margin: 25px;
+    flex: display;
 }
 .brand-name {
-    justify-items: end;
-}
+    flex: display;
+    font-size: x-large;
+} 
 .card-style-2 img {
     width: 200px;
     height: 100%;
     object-fit: cover;
     border-radius: 100%;
-    margin: 0px 80px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
 }
 .card-style-2 h2 {
     font-size: 24px;
@@ -41,5 +49,21 @@ body {
 
 }
 .card-style-2 a:hover {
+
+}
+#section-2 {
+    padding: 24px;
+    min-height: 100vh;
+}
+
+#section-2 {
+    
+}
+
+.card-container {
+    
+}
+
+#section-2 .example-card {
 
 }
