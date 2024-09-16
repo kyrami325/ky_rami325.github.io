@@ -1,75 +1,83 @@
 * {
     box-sizing: border-box;
-}   
-body {
-    margin: 0px;font-family: sans-serif;
 }
-#navbar {
-    background: linear-gradient(to bottom, green, #3e6d3e);
-    display: flex;
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar{
+    background: linear-gradient(to bottom, 
+        rgb(148, 148, 148), 
+        rgb(189, 183, 182));
+    display:flex;
     justify-content: space-between;
     align-items: center;
-}    
-#navbar a {
+}
+#navbar a{
     text-decoration: none;
     color: white;
     padding: 24px;
 }
-#navbar img {
+#navbar img{
     width: 200px;
 }
-#navbar #logo {
+#navbar #logo{
     margin-right: auto;
+    color: white;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+
 }
-#navbar .cta-button {
+#navbar .cta-button{
     background-color: white;
-    color: green;
-    border-radius: 36px;
-    padding: 16px 24px;
+    color: rgb(0, 0, 0);
+    border-radius: 26px;
+    padding: 16px;
     font-size: 20px;
-    font-weight: bold;
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
+    font-weight: bold;
+    font-family: 
+        'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+        'Lucida Sans', Arial, sans-serif;    
 }
-#layout {
+#logo2 img{
+    width:90px;
+}
+#layout{
     width: 800px;
     margin: 48px auto;
     font-size: 24px;
     height: 200vh;
+    color: rgb(58, 46, 34);
+    text-align: center;
 }
-#header {
+#header{
     position: sticky;
     top: 0px;
 }
-#navbar-bottom {
-    background: linear-gradient(to bottom, yellowgreen, olive);
-    display: flex;
-    justify-content: space-between;
-}
-#navbar-bottom a {
-    text-decoration: none;
+#footer{
+    background:linear-gradient(
+        to bottom, 
+        rgb(221, 113, 59), 
+        rgb(102, 57, 46));
     color: white;
-    padding: 12px 36px;
+    padding:12px;
 }
-#footer {
-    background: linear-gradient(to bottom, teal, #01482e);
-    color: white;
-    padding: 12px;
-}
-#footer a {
+#footer a{
     text-decoration: none;
     color: white;
 }
-#footer-navbar {
+#footer-navbar{
     width: 800px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
 #footer-columns-navbar {
-    width: 800px;
-    margin: 0px auto;
+    width: 800px;margin: 0px auto;
     padding: 48px 0px;
     display: flex;
     justify-content: space-between;
@@ -80,4 +88,212 @@ body {
 }
 #footer-columns-navbar a {
     padding: 8px 0px;
+}
+#header2{
+    position: sticky;
+    top: 0px;
+}
+#layout2{
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+    color: rgb(14, 38, 90);
+}
+#layout2 h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#layout2 p{
+    font-family:
+        'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+#logo2{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navbar2{
+    background: linear-gradient(
+        to bottom, 
+        rgb(26, 71, 109), 
+        rgb(123, 171, 233));
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar2 a{
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar2 a:hover{
+    color: rgb(26, 71, 109);
+    background-color: transparent;
+    padding: 24px;
+}
+#navbar2 img{
+    width: 200px;
+}
+#navbar2 #logo{
+    margin-right: auto;
+}
+#navbar2 .cta-button{
+    background-color: white;
+    color: rgb(12, 29, 61);
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 20px;
+    min-width: 125px;
+    text-align: center;
+    margin-right: 35px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+                'Lucida Sans', Arial, sans-serif;  
+}
+#logo2 img{
+    width:90px;
+}
+#header2{
+    position: sticky;
+    top: 0px;
+}
+#footer2{
+    background:
+        linear-gradient(to bottom, 
+            rgb(26, 71, 109), 
+            rgb(123, 171, 233));
+    color: white;
+    padding:12px;
+}
+#footer2 a{
+    text-decoration: none;
+    color: white;
+}
+#footer-navbar2{
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-columns-navbar2 div {
+    display: flex;
+    flex-direction: column;
+}
+#footer-columns-navbar2 a {
+    padding: 8px 0px;
+}
+#header3{
+    position: sticky;
+    top: 0px;
+}
+#layout3{
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+    color: rgb(30, 8, 48);
+}
+#layout3 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#layout3 p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#logo3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navbar3 h2{
+    color: rgb(255, 222, 160);
+}
+#navbar3{
+    background-color: rgb(30, 8, 48);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#navbar-center3{
+    background-color: rgb(30, 8, 48);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar3 a{
+    text-decoration: none;
+    color: rgb(240, 194, 109);
+    padding: 24px;
+    font-weight: bold;
+}
+#navbar3 #logo{
+    width: 400px;
+}
+#navbar3 .cta-button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(240, 194, 109);
+    border-radius: 26px;
+    padding: 16px;
+    font-size: 20px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+                'Lucida Sans', Arial, sans-serif;
+    
+}
+#logo3 img{
+    width:90px;
+    display: flex;
+}
+#header3{
+    position: sticky;
+    top: 0px;
+}
+#footer3{
+    background: rgb(30, 8, 48);
+    color: white;
+    padding:12px;
+}
+#footer3 a{
+    text-decoration: none;
+    color: white;
+}
+#footer-navbar3{
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+    #footer-columns-navbar3 div {
+    display: flex;
+    flex-direction: column;
+}
+    #footer-columns-navbar3 a {
+    padding: 8px 0px;
+}
+#navbar-bottom3{
+    background:
+        linear-gradient(to bottom, rgb(240, 194, 109), rgb(255, 255, 255));
+    display: flex;
+    justify-content: space-between;
+}
+#navbar-bottom3 a{
+    text-decoration: none;
+    color: rgb(38, 11, 41);
+    padding: 12px 36px;
+    font-weight: bold;
 }
