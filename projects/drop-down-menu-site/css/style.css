@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+}
+#navbar{
+    background-color: #fffcd3;
+    border-bottom: 3px solid #e49125;
+    display: flex;
+    align-items: center;
+    
+}
+#navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: #5eb8b0;
+    padding: 24px;
+}
+#navbar a:hover{
+    background-color: #5eb8b0;
+    color: rgb(73, 52, 33);
+}
+#navbar #logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+.dropdown-container{
+    position:relative;
+}
+.dropdown-menu{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25, visibility 0.25;
+    z-index: 10;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a{
+    background-color: #fffcd3;
+    color: rgb(73, 52, 33);
+    width: 100%;
+    min-width: 200px;
+}
+#hero-4 {
+    background-image: url("../images/hero.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    border-bottom: 3px solid #e49125;
+}
+#hero-4 .hero-content {
+    text-align: center;
+    color: #fffcd3;
+    padding-top: 40vh;
+    padding-bottom: 4vh;
+} 
+#hero-4 h2 {
+    font-size: 5vw;
+}
+.card-container{
+    width: 60%;
+    margin: auto;
+    max-width: 500px;
+    min-width: 480px;
+}
+.card{
+    flex: 300px;
+    border: 3px solid #5eb8b0;
+    margin: 45px;
+    padding: 20px;
+    border-radius: 24px;
+    text-align: center;
+    background-color: beige;
+    box-shadow: 4px 4px 4px #00000033;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+    border: 3px solid #5eb8b0;
+    border-radius: 24px;
+}
+#card2 img{
+    height: 300px;
+    object-fit: contain;
+}
+.card h2{
+    font-size: 26px;
+    margin: 2vh 0px 4vh 0pc;
+}
+.card-content p{
+    font-size: 16px;
+    margin: 2vh 0px 1vw 0px;
+    width: 100%;
+}
+@media screen and (max-width: 700px){
+    body{
+    }
+    #navbar{
+        background-color: lightskyblue;
+        border-bottom: 3px solid black;
+        margin: 0px;
+    }
+    #navbar a{
+        display: flex;
+        align-items:;
+        font-size: 16px;
+    }
+    #navbar #logo{
+        font-size: 18px;
+        margin: 0px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card h2{
+        font-size: 20px;
+        margin: 0vh 2vh 2vh 0px;
+        text-shadow: 4px 4px 4px #00000033;
+    }
+    .card p{
+        font-size: 16px;
+        margin: 2vh 0px 0px 0px;
+        text-shadow: 4px 4px 4px #00000033;
+    }
+}
