@@ -4,11 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Restaurant Home Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <div id="navbar">
-            <a id="logo" href="#">Glass Dragon</a>
+            <div href="#" id="logo">
+                <img src="images/restaurant_logo2.png" alt="logo">
+            </div>
             <div class="dropdown-container">
                 <a href="#">Home<i class="fa-solid fa-chevron-down"></i></a>
             </div>
@@ -36,25 +39,32 @@
         </div>
         <div class="single-column-layout intro">
             <div class="image-container">
-                <img src="images/jim.jpg" alt="jim">
+                <img src="images/coyfish2.png" alt="coyfish">
             </div>
             <div class="content-container">
-                <h1>Hello, I'm Jim</h1>
+                <h1>Welcome to Glass Dragon</h1>
                 <p>
                     I write short, fun articles about the
                     journeys I take as a photographer.
                 </p>
+                <a href="#">Learn More</a>
             </div>
         </div>
         <div class="featured">
-            <h2>Featured Photos</h2>
+            <h2>Menu Item of the Month</h2>
+            <p> 
+                Customer Voted
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </p>
             <div class="single-column-layout grid">
-                <p id="p1">Some of my favorite photos</p>
-                <p id="p2">Photography is fun!</p>
-                <img id="img1" src="images/photo-1.jpg" alt="photo">
-                <img id="img2" src="images/photo-2.jpg" alt="photo">
-                <img id="img3" src="images/photo-3.jpg" alt="photo">
-                <img id="img4" src="images/photo-4.jpg" alt="photo">
+                <img id="img1" src="images/jiaozi.jpg" alt="Appetizer">
+                <img id="img2" src="images/wonton soup.jpg" alt="Soup">
+                <img id="img3" src="images/kungpao_chicken.jpg" alt="Entree">
+                <img id="img4" src="images/almond cookies.png" alt="Dessert">
             </div>
         </div>
     </body>
