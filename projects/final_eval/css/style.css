@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;}
+    
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}       
+#navbar,
+#footer {
+    background-color: #9f0d0d;
+}
+#navbar a,
+#footer a {
+    color: #fbe888;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px 12px 0px;
+}
+#navbar-column,
+.center-column,
+#footer-column {
+    width: 500px;
+    margin: 0px auto;
+}
+.light-container {
+    background-color: #fbe888;
+}
+#hero-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-4 .hero-content {
+    text-align: center;
+    color: white;
+    padding: 7vh;
+}
+#hero-4 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+#hero-4 h4 {
+    font-size: 3vw;
+    margin-bottom: 5vh;
+}
+/*SEPARATE - DELETE LATER*/
+.dark-container {
+    background-color: #c4610b;
+    color: #fbe888;
+    padding: 36px 20px;
+}
+.side-by-side {
+    display: inline-block;
+    width: 49%;
+}
+.side-by-side img {
+    padding-left: 36px;
+    width: 100%;
+}
+/*SEPARATE - DELETE LATER*/
+#two-columns {
+    display: flex;
+}
+#column-1,
+#column-2 {
+    flex: 1;
+}
+#column-1 {
+    background-color: lightgreen;
+    text-align: center;
+}
+#column-2 {
+    background-color: #37d37b;
+    text-align: center;
+}
+
+/*SEPARATE - DELETE LATER*/ 
+.card {
+    padding: 10px;
+}
+.card a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: lightcoral;
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid lightcoral;
+}
+.card a:hover {
+    background-color: transparent;
+    color: lightcoral;
+}
+/*SEPARATE - DELETE LATER*/
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+.side-by-side .image-container img {
+    width: 100%;
+}
+/*DELETE LATER*/
+#section1 {
+    padding: 50px;
+}
+.side-by-side-2 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.side-by-side-2 .image-container {
+    flex: 1;
+}
+.side-by-side-2 .text-container {
+    flex: 1;
+    padding: 36px;
+}  
+.side-by-side-2 .image-container img {
+    width: 100%;
+}   
+.side-by-side-2 .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #3f0791;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+    text-align: center;
+}
