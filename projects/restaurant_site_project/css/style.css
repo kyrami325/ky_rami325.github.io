@@ -5,6 +5,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+/*SECTION 1 - APPLIED TO ALL PAGES*/
 #navbar {
     background: #000000;
     display: flex;
@@ -27,6 +28,15 @@ body {
     font-size: 36px;
     padding-top: 13px;
     padding-bottom: 12px;
+}
+/*LOGO*/
+#navbar img {
+    width: 150px;
+}
+#navbar #logo {
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
 }    
 .dropdown-container {
     position: relative;
@@ -52,7 +62,6 @@ body {
 #navbar .dropdown-menu a:hover {
     background: #034e3f;
 }
-/*DROPDOWN MENU*/
 #banner {
     background-color: #A92223;
     display: flex;
@@ -64,34 +73,36 @@ body {
     text-decoration: none;
     padding: 20px;
 }
-.single-column-layout {
+/*END OF SECTION 1 - APPLIED TO ALL PAGES*/
+/*SECTION 2 - HOME PAGE*/
+.welcome-section {
     width: 90vw;
     max-width: 800px;
     min-width: 480px;
     margin: 48px auto;
-} 
+}  
 .intro {
     display: flex;
     align-items: center;
     gap: 48px;
 }
-.image-container img {
+.image-1 img {
     height: 100%;
     object-fit: cover;
     border-radius: 24px;
 }
-.image-container,
+.image-1,
 .content-container {
     flex: 1;}
     
-.image-container {
+.image-1 {
     height: 300px;
 }
-.content-container h1 {
+.welcome-content h1 {
     font-size: 35px;
     color: black;
 }
-.content-container a {
+.welcome-content a {
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -104,7 +115,7 @@ body {
     border: 3px solid rgb(0, 0, 0);
     transition:background-color .5s,color .5s;
 }
-.content-container a:hover {
+.welcome-content a:hover {
     background-color: transparent;
     color: #A92223;
 }    
@@ -120,7 +131,27 @@ body {
 .featured p {
     font-size: 24px;
     text-align: center;
-}    
+}
+.header {
+    background-color: #222222;
+    color: white;
+    padding: 24px 0px;
+}
+.header h2 {
+    font-size: 36px;
+    text-align: center;
+    color:#000000;
+} 
+.header h1 {
+    font-size: 36px;
+    text-align: center;
+    color:white;
+}   
+.header p {
+    font-size: 24px;
+    text-align: center;
+    color:#000000;
+}
 .grid img {
     width: 100%;
     height: 300px;
@@ -133,58 +164,153 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 16px;
-    grid-template-areas:"img1 img1 img2 img2" "img3 img3 img4 img4";
+    grid-template-areas:
+        "img1 img1 img2 img2"
+        "img3 img3 img4 img4";
+        padding: 10px;
 }
-#p1 {
-    grid-area: txt1;}
-    #p2 {
-    grid-area: txt2;}
-    #img1 {
-    grid-area: img1;}
-    #img2 {
-    grid-area: img2;}
-    #img3 {
-    grid-area: img3;}
-    #img4 {
-    grid-area: img4;}
-    
-@media screen and (max-width: 768px) and (min-width: 481px) {
-.content-containerh1 {
-    font-size: 32px;}.intro{
-    gap: 24px;}
-.image-container{
-    height: 300px;}
-.grid{
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "txt1 img1""img2 img2""img3 img3""img4 txt2";}
+#img1 {
+    grid-area: img1;
 }
-@media screen and (max-width: 480px) {
-#nav{
-    flex-direction: column;
-    align-items: center;}
-.intro{
-    flex-direction: column;
-    gap: 24px;}
-.content-containerh1 {
-    margin: 0px;
-    font-size: 32px}
-.content-container{
-    text-align: center;}
-.grid{
-    grid-template-columns: 1fr;
-    grid-template-areas: "txt1""img1""img2""img3""img4""txt2";}
-.gridp {
-    height: 100px;
+#img2 {
+    grid-area: img2;
+}
+#img3 {
+    grid-area: img3;
+}
+#img4 {
+    grid-area: img4;
+}
+/*END OF SECTION 2 - HOME PAGE*/
+/*SECTION 3 - MENU PAGE*/
+/*MENU LAYOUT*/
+#card-section {
     display: flex;
-    justify-content: center;
-    align-items: center;}
+    align-items: center;
 }
-/*LOGO*/
-#navbar img {
-    width: 150px;
+#card-section-soups {
+    display: flex;
+    align-items: right;
 }
-#navbar #logo {
+.single-column {
+    display: flex;
     margin-right: auto;
-    display: flex;
-    justify-content: flex-start;
+    margin-left: auto;
 }
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    min-width: 350px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card h2 {
+    font-size: 36px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.card p {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0px 10px;
+    flex: 1;
+}
+.card a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #A92223;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid black;
+    transition:background-color .5s,color .5s;
+}
+.card a:hover,
+.dropdown-menu a:hover {
+    background-color: white;
+    color: #A92223;
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s,visibility 0.25s;
+}
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a {
+    background-color: #a92223;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+} 
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .content-containerh1 {
+        font-size: 32px;}.intro{
+        gap: 24px;}
+    .image-container{
+        height: 300px;}
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "img1 img1"
+            "img2 img2"
+            "img3 img3"
+            "img4 img4";
+    }
+    }
+    @media screen and (max-width: 480px) {
+    #nav{
+        flex-direction: column;
+        align-items: center;}
+    .intro{
+        flex-direction: column;
+        gap: 24px;}
+    .content-containerh1 {
+        margin: 0px;
+        font-size: 32px}
+    .content-container{
+        text-align: center;}
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "img1 img1"
+            "img2 img2"
+            "img3 img3"
+            "img4 img4";
+    }
+    .gridp {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+    }

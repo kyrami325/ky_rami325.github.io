@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Restaurant Home Page</title>
+        <title>Restaurant Menu Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
@@ -12,12 +13,12 @@
                 <img src="images/restaurant_logo2.png" alt="logo">
             </div>
             <div class="dropdown-container">
-                <a href="#">Home<i class="fa-solid fa-chevron-down"></i></a>
+                <a href="index.html">Home<i class="fa-solid fa-chevron-down"></i></a>
             </div>
             <div class="dropdown-container">
                 <a href="#">Order<i class="fa-solid fa-chevron-down"></i></a>
                 <div class="dropdown-menu">
-                    <a href="#">Menu</a>
+                    <a href="menu.html">Menu</a>
                     <a href="#">Specials</a>
                     <a href="#">Catering</a>
                     <a href="#">Supply Resources</a>
@@ -35,32 +36,367 @@
         </div>
         <div id="banner">
             <a href="#">Appetizers</a>
-            <a href="#">Main Dishes</a>
             <a href="#">Soups</a>
+            <a href="#">Entrées</a>
             <a href="#">Desserts</a>
         </div>
-        <div class="single-column-layout intro">
-            <div class="image-container">
-                <img src="images/jim.jpg" alt="jim">
+        <div class="header">
+            <h1>Carry-Out Menu</h>
+            <div id="card-section">
+                <div class="single-column card-container">
+                    <div class="card">
+                        <img
+                            src="images/menu-1.jpg"
+                            alt="Crab Rangoons"
+                        >
+                        <h2>Crab Rangoons</h2>
+                        <p>
+                            Our savory, deep-fried wontons 
+                            stuffed with our house-made 
+                            crab meat mixture - served 
+                            with sweet & sour sauce.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $4.00</a>
+                                <a href="#">MED - $5.75</a>
+                                <a href="#">LG - $7.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/jiaozi.jpg"
+                            alt="Jiaozi"
+                        >
+                        <h2>Jiaozi</h2>
+                        <p>
+                            Our delicate, bite-sized filled dumplings.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $4.00</a>
+                                <a href="#">MED - $5.75</a>
+                                <a href="#">LG - $7.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/springrolls.jpeg"
+                            alt="Spring Rolls"
+                        >
+                        <h2>Spring Rolls</h2>
+                        <p>
+                            Our deep-fried meat and veggie rolls
+                            served with sweet & sour sauce.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM (4ct) - $3.50</a>
+                                <a href="#">MED (7ct)- $6.00</a>
+                                <a href="#">LG (10ct) - $8.50</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/fried_wontons.jpg"
+                            alt="Fried Wontons"
+                        >
+                        <h2> Fried Wontons</h2>
+                        <p>
+                            Our savory, deep-fried wontons 
+                            with our house-made pork and
+                            vegetable mixture - served 
+                            with a sweet & sour sauce
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $5.00</a>
+                                <a href="#">MED - $7.00</a>
+                                <a href="#">LG - $9.00</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="content-container">
-                <h1>Hello, I'm Jim</h1>
-                <p>
-                    I write short, fun articles about the
-                    journeys I take as a photographer.
-                </p>
+            <div id="card-section-soups">
+                <div class="single-column card-container">
+                    <div class="card">
+                        <img
+                            src="images/egg_drop_soup.jpg"
+                            alt="Egg Drop Soup"
+                        >
+                        <h2>Egg Drop Soup</h2>
+                        <p>
+                            The ultimate dish or simplicity and comfort.
+                            Delicate ribbons of egg gently swirling in our
+                            house-made, flavorful broth. Customizable with 
+                            your choice of pepper, scallions, and tofu.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $4.00</a>
+                                <a href="#">MED - $6.00</a>
+                                <a href="#">LG - $8.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/hot_and_sour_soup.jpg"
+                            alt="Hot & Sour Soup"
+                        >
+                        <h2>Hot & Sour Soup</h2>
+                        <p>
+                            This soup is a flavour sensation,
+                            with a perfectly balanced blend of
+                            heat, tang, and umami.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $4.00</a>
+                                <a href="#">MED - $6.00</a>
+                                <a href="#">LG - $8.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/wonton soup.jpg"
+                            alt="Wonton Soup"
+                        >
+                        <h2>Wonton Soup</h2>
+                        <p>
+                            The gentle, soothing broth and delicate
+                            wontons provide a sense of comfort and 
+                            relaxation, while the refreshing ginger
+                            helps to settle the stomach.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $4.00</a>
+                                <a href="#">MED - $6.00</a>
+                                <a href="#">LG - $8.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/sizzling_rice_soup.jpg"
+                            alt="Sizzling Rice Soup"
+                        >
+                        <h2>Sizzling Rice Soup</h2>
+                        <p>
+                            This soup is a delightful classic that 
+                            brings a burst of flavor to your table
+                            with savory broth, fresh ingredients,
+                            and the crispy rice. It adds a unique
+                            texture and an exciting sizzling sound
+                            that enhances the dining experience.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $4.00</a>
+                                <a href="#">MED - $6.00</a>
+                                <a href="#">LG - $8.00</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="featured">
-            <h2>Featured Photos</h2>
-            <div class="single-column-layout grid">
-                <p id="p1">Some of my favorite photos</p>
-                <p id="p2">Photography is fun!</p>
-                <img id="img1" src="images/photo-1.jpg" alt="photo">
-                <img id="img2" src="images/photo-2.jpg" alt="photo">
-                <img id="img3" src="images/photo-3.jpg" alt="photo">
-                <img id="img4" src="images/photo-4.jpg" alt="photo">
+            <div id="card-section">
+                <div class="single-column card-container">
+                    <div class="card">
+                        <img
+                            src="images/kungpao_chicken.jpg"
+                            alt="Kung Pao Chicken"
+                        >
+                        <h2>Kung Pao Chicken</h2>
+                        <p>
+                            Experience the bold flavors of
+                            Kung Pao Chicken, a classic 
+                            Chinese dish that brings together
+                            tender cubes of chicken, crunchy 
+                            peanuts, and vibrant vegetables.
+                            Served with fried rice.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">Single - $5.00</a>
+                                <a href="#">Family - $9.50</a>
+                                <a href="#">LG - $7.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/sweet_sour_pork.jpg"
+                            alt="Sweet & Sour Pork"
+                        >
+                        <h2>Sweet & Sour Pork</h2>
+                        <p>
+                            Indulge in our Sweet and Sour Pork,
+                            a delightful dish that perfectly 
+                            balances sweet, sour, and tangy flavors. 
+                            Served with fried rice.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $4.00</a>
+                                <a href="#">MED - $5.75</a>
+                                <a href="#">LG - $7.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/peking_duck.jpg"
+                            alt="Peking Duck"
+                        >
+                        <h2>Peking Roast Duck</h2>
+                        <p>
+                            This delicacy features a perfectly
+                            roasted duck with a thin, crispy skin
+                            that is the star of the show, served
+                            alongside minimal meat for an authentic
+                            taste. Served with fried rice.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $4.00</a>
+                                <a href="#">MED - $5.75</a>
+                                <a href="#">LG - $7.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/chow_mein.jpg"
+                            alt="Chow Mein"
+                        >
+                        <h2>Chow Mein</h2>
+                        <p>
+                            Enjoy our delightful Chow Mein, 
+                            a classic Chinese dish with stir-fried
+                            noodles tossed with fresh vegetables. 
+                            Pork, chicken, beef, or tofu optional.
+                            Served with fried rice.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $4.00</a>
+                                <a href="#">MED - $5.75</a>
+                                <a href="#">LG - $7.00</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            <div id="card-section">
+                <div class="single-column card-container">
+                    <div class="card">
+                        <img
+                            src="images/almond cookies.png"
+                            alt="Almond Cookies"
+                        >
+                        <h2>Almond Cookies</h2>
+                        <p>
+                            Indulge in the delightful taste of 
+                            Chinese almond cookies, where buttery 
+                            sweetness meets a nutty flavor in every
+                            bite. 
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM (2ct) - $2.50</a>
+                                <a href="#">MED (4ct) - $4.00</a>
+                                <a href="#">LG (8ct) - $6.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/egg_tarts.jpg"
+                            alt="Egg Tarts"
+                        >
+                        <h2>Egg Tarts</h2>
+                        <p>
+                            Indulge in our delightful pastries that 
+                            are buttery, sweet, and simply irresistible.
+                            Each bite offers a tender, melt-in-your-mouth
+                            experience. Our tarts are sure to satisfy 
+                            your sweet tooth!
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM (2ct) - $3.50</a>
+                                <a href="#">MED (4ct) - $5.00</a>
+                                <a href="#">LG (8ct) - $7.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/fried_durian.jpg"
+                            alt="Fried Durian"
+                        >
+                        <h2>Fried Durian</h2>
+                        <p>
+                            Indulge in the unique flavor of our durian 
+                            pastries, a delightful Chinese treat that 
+                            combines rich durian paste with a perfectly 
+                            flaky pastry shell.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM (2ct) - $3.50</a>
+                                <a href="#">MED (4ct) - $5.00</a>
+                                <a href="#">LG (8ct) - $7.00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="images/tangyuan.jpg"
+                            alt="Tangyuan"
+                        >
+                        <h2>Tangyuan</h2>
+                        <p>
+                            Experience the delightful world of Tangyuan,
+                            soft and chewy dumplings that boast a mochi-like
+                            texture. Perfectly served in a warm, comforting
+                            soup. Tangyuan is a delightful addition to any meal, 
+                            bringing a touch of sweetness and a unique texture
+                            that will leave you craving more.
+                        </p>
+                        <div class="dropdown-container">
+                            <a href="#">Add to Cart</a>
+                            <div class="dropdown-menu">
+                                <a href="#">SM - $3.00</a>
+                                <a href="#">MED - $5.75</a>
+                                <a href="#">LG - $7.00</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
     </body>
 </html>
