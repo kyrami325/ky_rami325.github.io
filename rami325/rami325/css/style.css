@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: url("../images/Rami_Bkgd.png");
 }
 /*HEADER*/
 #navbar {
@@ -11,17 +12,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;top: 0px;
+    position: sticky;
+    top: 0px;
 }
 #navbar a {
     text-decoration: none;
-    color: white;
+    color: #ffece0;
     padding: 24px;
 }
 #navbar #logo img {
     width: 150px;
 }
-#navbar .cta-buttom { /*REVISIT COLORS*/
+#navbar .cta-button { /*REVISIT COLORS*/
     background-color: #ffece0;
     color: #544941;
     border-radius: 36px;
@@ -36,6 +38,8 @@ body {
 /*HEADER 2*/
 #navbar-bottom {
     background-color: #6F8275;
+    position: sticky;
+    top: 150px;
 }
 #navbar-bottom .content-column {
     display: flex;
@@ -57,14 +61,66 @@ body {
     background-size: cover;
 }
 /*END OF SECTION*/
+/*MEET THE DESIGNERS*/
+#section-1 {
+    background-color: rgb(255 236 224/75%);
+    margin: 56px;
+    border: 4px solid #544941;
+    border-radius: 16px;
+    padding: 10px 24px;
+}
+.s1-heading {
+    color: #544941;
+}
+.s1-heading h2 {
+    font-size: 36px;
+    text-align: center;
+}
+.s1-container {
+    min-width: 600px;
+    max-width: 1200px;
+    display: flex;
+}
+.s1-content {
+    display: flex;
+    align-items: center;
+    margin-left: 48px 0px;
+}
+.s1-content .s1-text {
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+}
+.s1-content .s1-text h3 {
+    font-size: 18px;
+}
+.s1-content .s1-text a {
+    background-color: #6F8275;
+    color: #FFECE0;
+    border-radius: 36px;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 150px;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+}
+.s1-content .s1-image {
+    flex: 1;
+}
+.s1-content .s1-image img {
+    width: 100%;
+    border-radius: 16px;
+}
+/*END OF SECTION;
 
-/*HOME*/
+/*GALLERY*/
 /*END OF SECTION*/
 
-/*SERVICES*/
+/*SERVICE LIST*/
 /*END OF SECTION*/
 
-/*WORKS*/
+/*CONTACT FORM*/
 /*END OF SECTION*/
 
 /*WORKS - INTRO*/

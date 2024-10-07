@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: url("../images/Bkrnd_Rami325.png");
+}
+/*HEADER*/
+#navbar {
+    background-color: #544941;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar a {
+    text-decoration: none;
+    color: #ffece0;
+    padding: 24px;
+}
+#navbar #logo img {
+    width: 150px;
+}
+#navbar .cta-button { /*REVISIT COLORS*/
+    background-color: #ffece0;
+    color: #544941;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+/*END OF SECTION*/
+/*HEADER 2*/
+#navbar-bottom {
+    background-color: #6F8275;
+    position: sticky;
+    top: 150px;
+}
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+#navbar-bottom a {
+    text-decoration: none;
+    color: #ffece0;
+    padding: 12px 0px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*END OF SECTION*/
+/*HERO*/
+#hero {
+    background-image: url("../images/Hero_Rami325.png");
+    height: 50vh;
+    background-size: cover;
+}
+/*END OF SECTION*/
+/*MEET THE DESIGNERS*/
+#section-1 {
+    background-color: rgb(255 236 224/75%);
+    margin: 56px;
+    border: 4px solid #544941;
+    border-radius: 16px;
+    padding: 10px 24px;
+}
+.s1-heading {
+    color: #544941;
+}
+.s1-heading h2 {
+    font-size: 36px;
+    text-align: center;
+}
+.s1-container {
+    min-width: 600px;
+    max-width: 1200px;
+    display: flex;
+}
+.s1-content {
+    display: flex;
+    align-items: center;
+    margin-left: 48px 0px;
+}
+.s1-content .s1-text {
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+}
+.s1-content .s1-text h3 {
+    font-size: 18px;
+}
+.s1-content .s1-text a {
+    background-color: #6F8275;
+    color: #FFECE0;
+    border-radius: 36px;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 150px;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+}
+.s1-content .s1-image {
+    flex: 1;
+}
+.s1-content .s1-image img {
+    width: 100%;
+    border-radius: 16px;
+}
+/*END OF SECTION;
+
+/*GALLERY*/
+#section-2 {
+    background-color: #6F8275;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.s2-heading {
+    color: #544941;
+    padding-top: 20px;
+}
+.s2-heading h3 {
+    font-size: 36px;
+    text-align: center;
+}
+.s2-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 48px;
+}
+.s2-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    border: 4px solid #544941;
+    border-radius: 16px;
+}
+/*END OF SECTION*/
+
+/*SERVICE LIST*/
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#card-section {
+    background: 
+        linear-gradient(#FFECE0, #6F8275, #6F8275, #6F8275, #006373);
+    padding: 48px;
+}
+.s3-heading {
+    color: #FFECE0;
+    padding-top: 20px;
+}
+.s3-heading h2 {
+    font-size: 36px;
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    flex: 1;
+    border: 4px solid #FFECE0;
+    border-radius: 16px;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    background-color: #544941;
+}
+.card h3 {
+    font-size: 24px;
+}
+.card p {
+    font-size: 18px;
+    margin: 24px 0px 0px;
+}
+#card-section .cta-button {
+    background-color: #ffece0;
+    color: #544941;
+    border-radius: 36px;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 150px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    padding: 5px 35px;
+}
+/*END OF SECTION*/
+
+/*CONTACT FORM*/
+/*END OF SECTION*/
+
+/*WORKS - INTRO*/
+/*END OF SECTION*/
+
+/*WORKS_J_PROFILE*/
+/*END OF SECTION*/
+
+/*WORKS_K_PROFILE*/
+/*END OF SECTION*/
+
+/*WORKS_J_PORTFOLIO*/
+/*END OF SECTION*/
+
+/*WORKS_K_PORTFOLIO*/
+/*END OF SECTION*/
+
+/*ABOUT*/
+/*END OF SECTION*/
+
+/*CONTACT*/
+/*END OF SECTION*/
+
+/*FOOTER*/
+/*END OF SECTION*/
