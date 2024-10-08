@@ -40,6 +40,7 @@ body {
     background-color: #6F8275;
     position: sticky;
     top: 150px;
+    min-width:480
 }
 #navbar-bottom .content-column {
     display: flex;
@@ -52,6 +53,7 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    min-width:480
 }
 /*END OF SECTION*/
 /*HERO*/
@@ -59,6 +61,8 @@ body {
     background-image: url("../images/Hero_Rami325.png");
     height: 50vh;
     background-size: cover;
+    max-width: 1000;
+    min-width:480
 }
 /*END OF SECTION*/
 /*MEET THE DESIGNERS*/
@@ -68,6 +72,7 @@ body {
     border: 4px solid #544941;
     border-radius: 16px;
     padding: 10px 24px;
+    min-width: 600px;
 }
 .s1-heading {
     color: #544941;
@@ -119,6 +124,8 @@ body {
     background-color: #6F8275;
     padding-top: 20px;
     padding-bottom: 20px;
+    max-width: 1000;
+    min-width:480
 }
 .s2-heading {
     color: #544941;
@@ -136,6 +143,7 @@ body {
 }
 .s2-gallery img {
     height: 250px;
+    max-width: 400px;
     flex: 1;
     object-fit: cover;
     border: 4px solid #544941;
@@ -149,7 +157,7 @@ body {
     max-width: 1200px;
     margin: 0px auto;
 }
-#card-section {
+#section-3 {
     background: 
         linear-gradient(#FFECE0, #6F8275, #6F8275, #6F8275, #006373);
     padding: 48px;
@@ -162,11 +170,11 @@ body {
     font-size: 36px;
     text-align: center;
 }
-.card-container {
+.s3-container {
     display: flex;
     justify-content: space-between;
 }
-.card {
+.s3-card-content {
     flex: 1;
     border: 4px solid #FFECE0;
     border-radius: 16px;
@@ -175,14 +183,13 @@ body {
     margin: 36px;
     background-color: #544941;
 }
-.card h3 {
+.s3-card-content h3 {
     font-size: 24px;
 }
-.card p {
+.s3-card-content ul {
     font-size: 18px;
-    margin: 24px 0px 0px;
 }
-#card-section .cta-button {
+#section-3 .cta-button {
     background-color: #ffece0;
     color: #544941;
     border-radius: 36px;
@@ -200,12 +207,139 @@ body {
 /*END OF SECTION*/
 
 /*CONTACT FORM*/
+#s4-layout {
+    width: 500px;
+    margin: 0px auto;
+}   
+header {
+    text-align: center;
+    padding: 50px;
+}
+header p {
+    font-size: 14px;}
+form {
+    background-color: white;
+    padding: 36px;border: 2px solid #CCCCCC;
+    border-radius: 2px;
+}
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 16px;
+}
+textarea {
+    font-family: sans-serif;
+}
+input[type=submit] {
+    width: auto;
+    background-color: #0e6de1;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    min-width: 75px;
+}
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: lightcoral;
+    border: 2px solid red;
+}
 /*END OF SECTION*/
 
-/*WORKS - INTRO*/
+/*MEDIA QUERIE - INTRO
+@media screen and (max-width: 768px) and (min-width: 481px) {
+#section-1,
+#section-2,
+#section-3 {
+    flex-direction: column;
+    align-items: center;
+}
+.s1-heading,
+.s2-heading,
+.s3-heading {
+    flex-direction: column;
+    align-items: center;
+}
+.content-containerh1 {
+    font-size: 32px;
+}
+.intro{
+    gap: 24px;
+}
+.image-container{
+    height: 300px;
+}
+.s2-gallery{
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img1""img2 img2""img3 img3""img4";
+}
+}
+    
+@media screen and (max-width: 480px) {
+#section-1,
+#section-2,
+#section-3 {
+    flex-direction: column;
+    align-items: center;
+}
+.s1-heading,
+.s2-heading,
+.s3-heading {
+    flex-direction: column;
+    align-items: center;
+}
+.s3-card,
+.s3-content{
+    flex-direction: column;
+    gap: 24px;
+}
+.content-containerh1 {
+    margin: 0px;
+    font-size: 32px
+}
+.content-container{
+    text-align: center;
+}.s2-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 48px;
+    height: 250px;
+    max-width: 400px;
+    flex: 1;
+    object-fit: cover;
+    border: 4px solid #544941;
+    border-radius: 16px;
+}.s2-galleryp {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+}
 /*END OF SECTION*/
 
-/*WORKS_J_PROFILE*/
+/*WORKS_J_PROFILE
+.s2-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 48px;
+}
+.s2-gallery img {
+    height: 250px;
+    max-width: 400px;
+    flex: 1;
+    object-fit: cover;
+    border: 4px solid #544941;
+    border-radius: 16px;
+}
 /*END OF SECTION*/
 
 /*WORKS_K_PROFILE*/
